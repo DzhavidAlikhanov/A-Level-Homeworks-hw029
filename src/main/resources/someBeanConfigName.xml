@@ -1,0 +1,11 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="entitlement" class="spring.Entitlement">
+        <property name="name" value="Entitlement"/>
+        <property name="time" value="20"/>
+    </bean>
+
+</beans>
